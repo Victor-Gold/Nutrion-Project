@@ -94,7 +94,8 @@
 
  h1 {
      font-family: 'Noto', serif;
-     font-size: 10vh;
+     font-size: 5.5vw;
+     max-width: 100%;
  }
 
  .hero-section {
@@ -137,9 +138,6 @@
      border-color: transparent;
  }
 
-
-
-
  /* RESPONSIVE DESIGN */
 
  @media(max-width: 600px) {
@@ -149,6 +147,11 @@
      }
  }
 
+ /* @media(max-width: 460px) {
+     .hero-image {
+        visibility: hidden;
+     }
+ } */
 
  /*INFORMATION BOX STYLES */
 
@@ -223,6 +226,7 @@
 
  /* FOOTER STYLES */
  footer {
+
      position: relative;
      margin-top: 200px;
      display: flex;
@@ -275,5 +279,5 @@
  }
 
  .site-list-ul {
-     list-style:georgian;
+     list-style: georgian;
  }
