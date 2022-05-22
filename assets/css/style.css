@@ -13,9 +13,6 @@
 
      margin-left: 70px;
      margin-right: 70px;
-
-
-
  }
 
 
@@ -142,11 +139,26 @@
 
  @media(max-width: 600px) {
      .hero-image {
-         width: 300px;
+         visibility: visible;
+         width: 520px;
          margin-top: 125px;
      }
  }
 
+
+ @media(max-width: 650px) {
+     h1 {
+         font-size: 3rem;
+         
+     }
+ }
+
+  @media(max-width: 550px) {
+      .hero-image {
+          visibility: hidden;
+
+      }
+  }
  /* @media(max-width: 460px) {
      .hero-image {
         visibility: hidden;
